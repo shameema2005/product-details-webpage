@@ -1,0 +1,13 @@
+Developer writes code
+  -> Git tracks changes
+  -> Push to GitHub
+  -> Jenkins checks out code
+  -> Validate source files
+  -> Build Docker image
+  -> Push image to Docker Hub
+  -> Apply Kubernetes Deployment and Service
+  -> Kubernetes runs two Pods
+  -> Service exposes webpage to users
+
+Note: Jenkins execution requires a configured agent, Docker daemon, registry credentials,
+kubectl and a reachable Kubernetes cluster. Configuration files alone do not prove deployment.
